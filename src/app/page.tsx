@@ -1,11 +1,8 @@
-import BlogSection from "@/components/blog-section";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
-import ProjectSection from "@/components/project-section";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
-import { ArrowRightIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -48,56 +45,24 @@ export default function Page() {
             {DATA.summary}
           </Markdown>
         </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 5}>
+          <div className="mt-4 flex justify-center">
+            <Button 
+              variant="default" 
+              className="bg-foreground text-background hover:bg-foreground/90"
+              asChild
+            >
+              <Link href="https://drive.google.com/file/d/1hD0MPJ6ykI4G08qnGmgoNmfyjSA0QYDN/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                Check My Resume
+              </Link>
+            </Button>
+          </div>
+        </BlurFade>
       </section>
-      <section id="blog">
-        <div className="space-y-4 w-full py-6">
-          <BlurFade
-            className="flex items-center justify-between"
-            delay={BLUR_FADE_DELAY * 5}
-          >
-            <h2 className="text-xl font-bold">Timeline</h2>
-            <Link href="/blog">
-              <Button variant="outline" size="sm">
-                Discover More
-                <ArrowRightIcon className="h-4 ml-2" />
-              </Button>
-            </Link>
-          </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 6}>
-            <BlogSection isHome />
-          </BlurFade>
-        </div>
-      </section>
-      <section id="projects">
-        <div className="space-y-12 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  My Projects
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
-                </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from websites and
-                  mobile apps to complex monoliths and microservices on the
-                  cloud.
-                </p>
-              </div>
-            </div>
-          </BlurFade>
-          <ProjectSection isHome />
-        </div>
-      </section>
-
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Contact
-              </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Get in Touch
               </h2>
