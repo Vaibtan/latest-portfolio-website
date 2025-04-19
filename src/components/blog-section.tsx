@@ -1,8 +1,7 @@
 import { getClient } from "@/lib/apollo-client";
 import gqlQuery from "@/lib/gql-queries";
-import React from "react";
-import { BlogCard } from "./blog-card";
 import { HashnodePost } from "@/lib/types";
+import { BlogCard } from "./blog-card";
 
 type Props = {
   isHome?: boolean;
@@ -22,7 +21,7 @@ export default async function BlogSection({ isHome }: Props) {
       "Series not found. Please check the series slug in the gql-config.ts file.",
     );
     return (
-      <p className="text-sm text-muted-foreground mt-2">Couldn&apos;t fetch.</p>
+      <p className="text-sm text-muted-foreground mt-2">Cooking cool blogposts! Stay Tuned.</p>
     );
   }
 

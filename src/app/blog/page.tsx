@@ -1,7 +1,6 @@
-import BlurFade from "@/components/magicui/blur-fade";
-import React from "react";
-import NewsletterSubscribe from "@/components/subscribe";
 import BlogSection from "@/components/blog-section";
+import BlurFade from "@/components/magicui/blur-fade";
+import NewsletterSubscribe from "@/components/subscribe";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -20,9 +19,8 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  And documenting my journey throughout the process. Basically
-                  you&apos;ll find short snippets of my experiences, the
-                  challenges I faced, and the solutions I came up with.
+                  Coming Soon! Here you&apos;ll find short snippets of my experiences, the
+                  challenges I faced, and the solutions I came up with in some of my projects.
                 </p>
               </div>
             </div>

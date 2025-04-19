@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Contemplative coder and analyst with a passionate knack for marrying theory and silicon.",
   summary:
-    "I’m an aspiring machine learning engineer and researcher [currently working in the realm of Computer Vision.](/work) I am interested in compute-efficient distributed training, building efficient and robust multi modal systems and inference at scale. Currently a senior undergraduate [studying Computer Science](/work#education), I specialize in optimizing machine learning workflows—from designing GPU-accelerated Triton kernels to implementing distributed training pipelines. I have also extensively worked on interdisciplinary projects spanning from [time series forecasting to low level system simulation](/work#projects). I'm an avid learner who like to solve algorithmic problems [from P-complexity-class](https://leetcode.com/u/tupac_x11/).Currently open to Machine Learning Engineer / Data Scientist / Data Engineer / Backend roles",
+    "I’m an aspiring machine learning engineer and researcher [currently working in the realm of Computer Vision.](/work) I am interested in compute-efficient distributed training, building efficient and robust multi modal systems and inference at scale. Currently a senior undergraduate [studying Computer Science](/work#education), I specialize in optimizing machine learning workflows—from designing GPU-accelerated Triton kernels to implementing distributed training pipelines. I have also extensively worked on interdisciplinary projects spanning from [time series forecasting to low level system simulation](/work#projects). I'm an avid learner who like to solve algorithmic problems [from P-complexity-class](https://leetcode.com/u/tupac_x11/).Actively Seeking ML Engineering / Data Engineering roles where I can leverage my skills to contribute to impactful projects and continue growing alongside talented teams.",
   avatarUrl:
     "/techie_emoji.png",
   skills: [ 
@@ -149,7 +149,7 @@ export const DATA = {
       dates: "July 2024",
       active: true,
       description:
-        "An open-source bash CLI tool to ease your NGINX and SSL workflows by exposing your web service, making it secure, reverse-proxying to the internet, all with a single command.",
+        "Developed and benchmarked novel models (GAN, Neural ODE VAE, Neural ODE Classifier) for stock market analysis, achieving a 15% F1 improvement and 85% faster training via Neural ODEs.Implemented a CNN-LSTM architecture delivering high-accuracy regression (R² 0.99, MAE 143.58 on S&P 500) across five major indices on the CNNPred dataset.",
       technologies: ["Pytorch", "Transformers", "Scikit-Learn", "Pandas"],
       links: [
         {
@@ -264,7 +264,7 @@ export const DATA = {
     domain: "https://gql.hashnode.com/",
 
     // the hashnode blog you want to fetch data from
-    host: "parambirje.hashnode.dev",
+    host: "vaibtan.hashnode.dev",
 
     // the main timeline series-slug you want to fetch data from
     series: "timeline",
