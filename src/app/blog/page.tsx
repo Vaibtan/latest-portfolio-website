@@ -19,8 +19,7 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Coming Soon! Here you&apos;ll find short snippets of my experiences, the
-                  challenges I faced, and the solutions I came up with in some of my projects.
+                  Coming Soon! Here you&apos;ll find technical details of some of the latest papers in speech representation learning, ML inference and more!
                 </p>
               </div>
             </div>

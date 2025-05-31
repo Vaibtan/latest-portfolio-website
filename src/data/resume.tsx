@@ -123,6 +123,27 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Multi Agent Tutoring Chatbot (Work In Progress)",
+      href: "https://github.com/Vaibtan/Multi-Agent-Tutoring-Bot",
+      dates: "May 2025",
+      active: true,
+      description:
+        "",
+      technologies: [
+        "Python",
+        "ZeroMQ",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Vaibtan/Distributed-Database-with-Raft-Consensus-Algorithm",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/raft_consensus.png",
+      video: "",
+    },
+    {
       title: "Distributed KV Store with Modified Raft Consensus",
       href: "https://github.com/Vaibtan/Distributed-Database-with-Raft-Consensus-Algorithm",
       dates: "July 2024",
@@ -141,6 +162,31 @@ export const DATA = {
         },
       ],
       image: "/raft_consensus.png",
+      video: "",
+    },
+    {
+      title: "Vision-Language Assistant for Navigation Aid in Urban Metro Systems",
+      href: "https://github.com/Vaibtan/Distributed-Database-with-Raft-Consensus-Algorithm",
+      dates: "March 2025",
+      active: true,
+      description:
+        "Developed MetroSense, a novel web-based platform to empower visually impaired individuals navigate the Delhi Metro system, achieving 65.1% mAP@50 for identifying environmental elements from real-time image captures. Integrated LLAMA Vision 3.2 90B for sophisticated VQA, engineered with context-rich, few-shot prompting and optimized decoding parameters to achieve a BERT F1 score of 0.85, delivering semantically accurate, context-aware voice-synthesized responses to user queries for improved safety and autonomy.",
+      technologies: [
+        "Python",
+        "PyTorch",
+        "Transformers",
+        "HuggingFace",
+        "LLMs",
+        "OnRender"
+      ],
+      links: [
+        {
+          type: "Demo",
+          href: "https://docs.google.com/file/d/1qW3ZT4TmsPIdr7BmXiZ7-H4E-PQkiN-B/preview",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/metrosense.png",
       video: "",
     },
     {
