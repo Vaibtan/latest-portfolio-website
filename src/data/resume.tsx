@@ -123,24 +123,27 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Multi Agent Tutoring Chatbot (Work In Progress)",
+      title: "Multi Agent Tutoring System (Work In Progress)",
       href: "https://github.com/Vaibtan/Multi-Agent-Tutoring-Bot",
       dates: "May 2025",
       active: true,
       description:
-        "",
+        "Developed a sophisticated tutoring chatbot leveraging Google's Agent Development Kit (ADK) principles with intelligent orchestration between specialized Math and Physics agents powered by Gemini API, integrating context-aware conversation management, autonomous query classification pipeline routing student queries to domain-specific agents and provide personalized responses through prompt engineering and tool integration.",
       technologies: [
         "Python",
-        "ZeroMQ",
+        "FastAPI",
+        "Gemini",
+        "Agent Development Kit",
+        "Javascript"
       ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/Vaibtan/Distributed-Database-with-Raft-Consensus-Algorithm",
-          icon: <Icons.github className="size-3" />,
+          type: "Live Deployment",
+          href: "https://multi-agent-tutoring-bot-production-ac02.up.railway.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/raft_consensus.png",
+      image: "/agentchatbot.png",
       video: "",
     },
     {
