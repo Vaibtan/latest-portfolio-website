@@ -74,24 +74,36 @@ export const DATA = {
 
   work: [
     {
+      company: "MIDAS Research Group",
+      href: "https://midas.iiitd.ac.in/",
+      badges: [],
+      location: "New Delhi, India",
+      title: "Research and Development Associate",
+      logoUrl: "/midas_logo.jpeg",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "Working on improving Foundational models for Self Supervised Speech Representation Learning like HuBERT and MS-HuBERT.",
+    },
+    {
       company: "Infosys Centre for Artificial Intelligence",
       href: "https://cai.iiitd.ac.in/",
       badges: [],
       location: "New Delhi, India",
-      title: "Computer Vision Researcher",
+      title: "ML + Backend Engineer",
       logoUrl: "/icai-removebg-preview.png",
       start: "September 2024",
-      end: "Present",
+      end: "May 2025",
       description:
         "Developed advanced wildlife monitoring capabilities by fine-tuning YOLO and custom Transformer based architectures along with (CUDA, TensorRT) inference optimization. Built a robust backend infrastructure (FastAPI, PostgreSQL, Docker) featuring optimized queries and an end-to-end MLOps pipeline for continual learning from camera trap data. Mitigated annotation bottlenecks using Active Learning algorithms and ensured system health via custom API monitoring tools.",
     },
     {
-      company: "Outlier (Scale AI)",
+      company: "Scale AI",
       href: "#",
       badges: [],
       location: "San Francisco - Remote",
       title: "LLM Post Training Contributor",
-      logoUrl: "/outlier-wobg.png",
+      logoUrl: "/scaleai_logo.jpeg",
       start: "Dec 2024",
       end: "February 2025",
       description:
@@ -311,11 +323,7 @@ export const DATA = {
   ],
   gqlConfig: {
     domain: "https://gql.hashnode.com/",
-
-    // the hashnode blog you want to fetch data from
     host: "vaibtan.hashnode.dev",
-
-    // the main timeline series-slug you want to fetch data from
-    series: "timeline",
+    series: "srl-series",
   },
 } as const;

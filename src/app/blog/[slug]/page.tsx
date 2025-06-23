@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import BlurFade from "@/components/magicui/blur-fade";
 import PrismLoader from "@/components/prism-loader";
 import NewsletterSubscribe from "@/components/subscribe";

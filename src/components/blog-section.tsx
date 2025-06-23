@@ -13,9 +13,7 @@ export default async function BlogSection({ isHome }: Props) {
   });
 
   if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error :(</p>;
-
-  // if no series found, series doesn't exist
+  if (error) return <p>Error :</p>;
   if (!data.publication.series) {
     console.error(
       "Series not found. Please check the series slug in the gql-config.ts file.",
