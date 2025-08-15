@@ -36,6 +36,17 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <section id="schedule-meet">
+        <div className="mx-auto w-full max-w-2xl">
+          <BlurFade delay={BLUR_FADE_DELAY * 6}>
+            <div className="flex justify-start">
+              <Link href={DATA.calDotCom} target="_blank" rel="noopener noreferrer">
+                <Button className="bg-[#A52A2A] text-white hover:bg-[#8b2323]">Schedule Meet</Button>
+              </Link>
+            </div>
+          </BlurFade>
+        </div>
+      </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold mb-2">About</h2>
@@ -52,7 +63,7 @@ export default function Page() {
               className="bg-foreground text-background hover:bg-foreground/90"
               asChild
             >
-              <Link href="https://drive.google.com/file/d/1atwORC87a6WBkHOZU9CAV55MskQGYnUz/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1k9ULlYjOByvEJ7kzmqzwfyGFBzIK8EIE/view?usp=sharing">
                 Check My Resume
               </Link>
             </Button>

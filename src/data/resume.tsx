@@ -8,11 +8,11 @@ export const DATA = {
   location: "New Delhi, India",
   locationLink: "https://www.google.com/maps/place/New+Delhi,+Delhi/@28.5272527,77.0441739,11z/data=!3m1!4b1!4m15!1m8!3m7!1s0x30635ff06b92b791:0xd78c4fa1854213a6!2sIndia!3b1!8m2!3d20.593684!4d78.96288!16zL20vMDNyazA!3m5!1s0x390cfd5b347eb62d:0x52c2b7494e204dce!8m2!3d28.6139298!4d77.2088282!16zL20vMGRsdjA?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D",
   description:
-    "Contemplative coder and analyst with a passionate knack for marrying theory and silicon.",
+    "Early-career full stack AI developer passionate about Backend engineering, Distributed / Decentralized RL training and Infra for Next-Gen Agentic LLM Systems.",
   summary:
-    "I’m an aspiring machine learning engineer and researcher [currently working in the realm of Computer Vision.](/work) I am interested in compute-efficient distributed training, building efficient and robust multi modal systems and inference at scale. Currently a senior undergraduate [studying Computer Science](/work#education), I specialize in optimizing machine learning workflows—from designing GPU-accelerated Triton kernels to implementing distributed training pipelines. I have also extensively worked on interdisciplinary projects spanning from [time series forecasting to low level system simulation](/work#projects). I'm an avid learner who like to solve algorithmic problems [from P-complexity-class](https://leetcode.com/u/tupac_x11/).Actively Seeking ML Engineering / Data Engineering roles where I can leverage my skills to contribute to impactful projects and continue growing alongside talented teams.",
+    "I’m a 21 year old software developer and a recent [CS + Applied Math](/work#education) graduate, building end-to-end robust AI driven workflows and platforms with a focus on reliability, scale, and impact. Previously worked across [Computer Vision and Full Stack systems.](/work) and have extensively built interdisciplinary projects which can be [viewed here](/work#projects). I'm an avid learner who likes [algorithmic problem solving](https://leetcode.com/u/tupac_x11/) and am heavily curious in learning about multi modal inference systems at scale. Currently seeking roles in AI, backend, or data engineering where I can own critical paths, move quickly with lean teams, and ship value. Founder‑curious and startup‑minded, I’m excited by zero‑to‑one challenges, building with small, high‑trust teams, and partnering closely with founders to take AI products from prototype to reliable, scalable systems. If that resonates, let’s connect.",
   avatarUrl:
-    "/techie_emoji.png",
+    "/techie_emoji.png", 
   skills: [ 
     "Python",
     "C++",
@@ -71,6 +71,7 @@ export const DATA = {
       },
     },
   },
+  calDotCom: "https://cal.com/vaibtan11",
 
   work: [
     {
@@ -134,6 +135,31 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "LLM powered Resume Analyzer",
+      href: "https://github.com/Vaibtan/ai-resume-analyzer",
+      dates: "July 2025",
+      active: true,
+      description:
+        "Developed a full-stack AI-powered resume analyzer using React, TypeScript, and Claude Sonnet integration, featuring real-time PDF processing, multi-dimensional scoring system (ATS, content, structure, skills), and comprehensive feedback generation for job seekers, integrating Zustand state management, Tailwind CSS, React Router, and Puter.js services for authentication, file system operations, and data persistence, delivering a responsive user interface with drag-and-drop functionality and visual score components.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Puter.js",
+        "Tailwind",
+        "React Router",
+        "Zustand"
+      ],
+      links: [
+        {
+          type: "Live Deployment",
+          href: "https://ai-resume-analyzer-app.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/resumaster.png",
+      video: "",
+    },
     {
       title: "Multi Agent Tutoring System (Work In Progress)",
       href: "https://github.com/Vaibtan/Multi-Agent-Tutoring-Bot",
