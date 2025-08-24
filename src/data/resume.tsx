@@ -156,6 +156,11 @@ export const DATA = {
           href: "https://ai-resume-analyzer-app.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/Vaibtan/ai-resume-analyzer-app",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/resumaster.png",
       video: "",
@@ -179,6 +184,11 @@ export const DATA = {
           type: "Live Deployment",
           href: "https://multi-agent-tutoring-bot-production-ac02.up.railway.app/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Vaibtan/Multi-Agent-Tutoring-Bot",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/agentchatbot.png",
