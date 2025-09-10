@@ -195,6 +195,31 @@ export const DATA = {
       video: "",
     },
     {
+      title: "AI Powered App Developer",
+      href: "https://github.com/Vaibtan/Functional-App-Agent",
+      dates: "August 2025",
+      active: true,
+      description:
+        "Coding assistant built with LangGraph, simulating a multi-agent developer workflow to generate complete projects from natural language prompts. It utilizes Planner, Architect, and Coder agents to sequentially design, structure, and implement applications, leveraging tools for file I/O and code execution. The system is deployed with a FastAPI backend and a NiceGUI frontend for user interaction and project management",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "Groq",
+        "LangGraph",
+        "LangChain",
+        "NiceGUI"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Vaibtan/Functional-App-Agent",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/fab1.png",
+      video: "",
+    },
+    {
       title: "Distributed KV Store with Modified Raft Consensus",
       href: "https://github.com/Vaibtan/Distributed-Database-with-Raft-Consensus-Algorithm",
       dates: "July 2024",
