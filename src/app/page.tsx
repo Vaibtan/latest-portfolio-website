@@ -63,7 +63,7 @@ export default function Page() {
               className="bg-foreground text-background hover:bg-foreground/90"
               asChild
             >
-              <Link href="https://drive.google.com/file/d/1k9ULlYjOByvEJ7kzmqzwfyGFBzIK8EIE/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1MKStFuo3p153m3Shy5AN30YmSqFvM61-/view?usp=sharing">
                 Check My Resume
               </Link>
             </Button>
