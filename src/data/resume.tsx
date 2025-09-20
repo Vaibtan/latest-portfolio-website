@@ -140,6 +140,31 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Youtube Multimodal RAG Pipeline",
+      href: "https://github.com/Vaibtan/ai-resume-analyzer",
+      dates: "August 2025",
+      active: true,
+      description:
+        "This project implements a sophisticated multimodal RAG system transforming YouTube videos into queryable knowledge bases through advanced frame extraction and caption analysis. Leveraging Gemini for inference and Qdrant for efficient vector storage, the system processes both visual and textual content to generate precise, timestamped responses to natural language queries, demonstrating SOTA integration of vision, NLP and vector search technologies to enable conversational interaction with video content at scale.",
+      technologies: [
+        "Python",
+        "HuggingFace",
+        "Qdrant",
+        "Llamaindex",
+        "Gemini SDK",
+        "Streamlit"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Vaibtan/Youtube-MRAG-Pipeline",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/youtube_vrag.png",
+      video: "",
+    },
+    {
       title: "LLM powered Resume Analyzer",
       href: "https://github.com/Vaibtan/ai-resume-analyzer",
       dates: "July 2025",
