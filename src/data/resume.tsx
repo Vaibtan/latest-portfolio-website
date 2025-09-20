@@ -145,7 +145,7 @@ export const DATA = {
       dates: "August 2025",
       active: true,
       description:
-        "This project implements a sophisticated multimodal RAG system transforming YouTube videos into queryable knowledge bases through advanced frame extraction and caption analysis. Leveraging Gemini for inference and Qdrant for efficient vector storage, the system processes both visual and textual content to generate precise, timestamped responses to natural language queries, demonstrating SOTA integration of vision, NLP and vector search technologies to enable conversational interaction with video content at scale.",
+        "This project implements a sophisticated multimodal RAG system transforming YouTube videos into queryable knowledge bases through advanced frame extraction and caption analysis. Leveraging Gemini for inference and Qdrant for efficient vector storage, the system processes both visual and textual content to generate precise, timestamped responses to natural language queries.",
       technologies: [
         "Python",
         "HuggingFace",
@@ -162,6 +162,32 @@ export const DATA = {
         },
       ],
       image: "/youtube_vrag.png",
+      video: "",
+    },
+    {
+      title: "WhatsApp Multimodal Memory Bot",
+      href: "https://github.com/Vaibtan/Whatsapp-Memory-Integration",
+      dates: "August 2025",
+      active: true,
+      description:
+        "Architected a multimodal WhatsApp memory assistance pipeline (FastAPI + AsyncIO) that ingests text/voice/images via Twilio webhooks, classifies intent in real time via Groq LLM inference, embeds memories in Mem0's vector store for semantic recall, and serves analytics through idempotent SQLite transactions. ",
+      technologies: [
+        "Python",
+        "Twilio",
+        "Groq",
+        "Whisper",
+        "Mem0",
+        "FastAPI",
+        "SQLAlchemy"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Vaibtan/Whatsapp-Memory-Integration",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/wa-membot.png",
       video: "",
     },
     {
